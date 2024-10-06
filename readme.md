@@ -194,7 +194,7 @@ doc_title = 'transcription'
 if folder_id:
     doc_id = upload_transcription_as_google_doc(transcript_text, folder_id, filename=doc_title)
     if doc_id:
-        print(f"🌳🦊🌳 Google Docs document successfully created: https://docs.google.com/document/d/{doc_id}/edit")
+        print(f"🌳🦊🌳 Google Docs document successfully created")
     else:
         print("❌ Unable to create Google Docs document.")
 else:
